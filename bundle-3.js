@@ -1312,7 +1312,7 @@ className: "pulse-dot h-1.5 w-1.5 rounded-full bg-[var(--acid)]"
 className: "mt-5 text-sm leading-relaxed text-white/45"
 }, d.ask.twinBio), /*#__PURE__*/React.createElement("div", {
 className: "mt-6 flex flex-wrap justify-center gap-1.5"
-}, d.ask.askChips.map(c => /*#__PURE__*/React.createElement("button", {
+}, d.askChips.map(c => /*#__PURE__*/React.createElement("button", {
 key: c,
 className: "chip",
 onClick: () => send(c)
